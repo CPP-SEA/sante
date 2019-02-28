@@ -8,8 +8,8 @@ public class Reminder {
 		name = n;
 		description = d;
 		timeInterval = t;
-	}
-	
+  }
+  
 	public void remind() {
 		System.out.println(name + ": " + description);
 	}	
